@@ -151,6 +151,7 @@ brew cask install --appdir="/Applications" virtualbox
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" gitkraken
 # brew cask install --appdir="/Applications" firefox
 # brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" franz
