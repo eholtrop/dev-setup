@@ -171,6 +171,9 @@ defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryCli
 # Increase sound quality for Bluetooth headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
+defaults write "Apple Global Domain" "com.apple.keyboard.fnState" "1" ## F1 F2 etc
+# defaults write "Apple Global Domain" "com.apple.keyboard.fnState" "0" ## Brightness/Media
+
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
