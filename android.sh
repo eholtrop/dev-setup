@@ -19,7 +19,7 @@ fi
 brew update
 
 # fastlane
-brew cask install fastlane
+sudo gem install fastlane -NV
 
 brew tap caskroom/versions
 
