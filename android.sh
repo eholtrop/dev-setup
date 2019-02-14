@@ -18,6 +18,9 @@ fi
 # Make sure we’re using the latest Homebrew.
 brew update
 
+# fastlane
+brew cask install fastlane
+
 brew tap caskroom/versions
 
 brew cask install --appdir="~/Applications" java8
