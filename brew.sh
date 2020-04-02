@@ -161,6 +161,8 @@ brew cask install --appdir="/Applications" franz
 # brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" bettertouchtool
 brew cask install --appdir="/Applications" dashlane
+brew cask install --appdir="/Applications" vanilla
+brew cask install --appdir="/Applications" spotify
 #brew cask install --appdir="/Applications" gimp
 #brew cask install --appdir="/Applications" inkscape
 
