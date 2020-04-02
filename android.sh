@@ -29,5 +29,9 @@ brew cask install --appdir="~/Applications" android-studio
 
 brew cask install android-sdk
 
+# a command line program for sharing your device screen with your laptop
+# https://github.com/Genymobile/scrcpy
+brew install scrcpy
+
 # Remove outdated versions from the cellar.
 brew cleanup
