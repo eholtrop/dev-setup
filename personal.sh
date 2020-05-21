@@ -19,6 +19,7 @@ fi
 brew update
 
 brew cask install --appdir="~/Applications" spotify
+brew cask install --appdir="~/Applications" soundsource
 
 # Remove outdated versions from the cellar.
 brew cleanup
