@@ -44,7 +44,7 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+# brew install wget --with-iri
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;

@@ -21,9 +21,9 @@ brew update
 # fastlane
 sudo gem install fastlane -NV
 
-brew tap caskroom/versions
+brew tap adoptopenjdk/openjdk
 
-brew cask install --appdir="~/Applications" java8
+brew cask install --appdir="~/Applications" adoptopenjdk8
 # brew cask install --appdir="~/Applications" intellij-idea-ce
 brew cask install --appdir="~/Applications" android-studio
 
